@@ -1,0 +1,312 @@
+@keyframes fallBig
+{
+    0% {top: -100%;}
+    60% {top:12%;width: 0px}
+    100%{width: 5%}
+}
+@-moz-keyframes fallBig /* Firefox */
+{
+    0% {top: -100%;}
+    60% {top:12%;width: 0px}
+    100%{width: 5%}
+}
+@-webkit-keyframes fallBig /* Safari 和 Chrome */
+{
+    0% {top: -100%;}
+    60% {top:12%;width: 0px}
+    100%{width: 5%}
+}
+@-o-keyframes fallBig /* Opera */
+{
+    0% {top: -100%;}
+    60% {top:12%;width: 0px}
+    100%{width: 5%}
+}
+@keyframes slideIn
+{
+    0% {width: 0%;height: 0%}
+    100%{width: 43%;height: 9%}
+}
+@-moz-keyframes slideIn /* Firefox */
+{
+    0% {width: 0%;height: 0%}
+    100%{width: 43%;height: 9%}
+}
+@-webkit-keyframes slideIn /* Safari 和 Chrome */
+{
+    0% {width: 0%;height: 0%}
+    100%{width: 43%;height: 9%}
+}
+@-o-keyframes slideIn /* Opera */
+{
+    0% {width: 0%;height: 0%}
+    100%{width: 43%;height: 9%}
+}
+@keyframes upBig
+{
+    0% {top:100%;left:86%}
+    60%{top:48%;width:0%;left:86%}
+    100%{width: 78%;}
+}
+@-moz-keyframes upBig /* Firefox */
+{
+    0% {top:100%;left:86%}
+    60%{top:48%;width:0%;left:86%}
+    100%{width: 78%;}
+}
+@-webkit-keyframes upBig /* Safari 和 Chrome */
+{
+    0% {top:100%;left:86%}
+    60%{top:48%;width:0%;left:86%}
+    100%{width: 78%;}
+}
+@-o-keyframes upBig /* Opera */
+{
+    0% {top:100%;left:86%}
+    60%{top:48%;width:0%;left:86%}
+    100%{width: 78%;}
+}
+@keyframes up
+ {
+     0% {top:100%;}
+     100%{top: 76%;}
+ }
+@-moz-keyframes up /* Firefox */
+{
+    0% {top:100%;}
+    100%{top: 76%;}
+}
+@-webkit-keyframes up /* Safari 和 Chrome */
+{
+    0% {top:100%;}
+    100%{top: 76%;}
+}
+@-o-keyframes up /* Opera */
+{
+    0% {top:100%;}
+    100%{top: 76%;}
+}
+@keyframes fallDown
+{
+    0% {top:-100%;}
+    100%{top: 74%;}
+}
+@-moz-keyframes fallDown /* Firefox */
+{
+    0% {top:-100%;}
+    100%{top: 74%;}
+}
+@-webkit-keyframes fallDown /* Safari 和 Chrome */
+{
+    0% {top:-100%;}
+    100%{top: 74%;}
+}
+@-o-keyframes fallDown /* Opera */
+{
+    0% {top:-100%;}
+    100%{top: 74%;}
+}
+@keyframes jump
+{
+    0% {top: 82%;left: 100%;}
+    25%{top: 84%;left: 95%;}
+    50%{top: 82%;left: 90%;}
+    75%{top: 84%;left: 85%;}
+    100%{top: 82%;left: 80%;}
+}
+@-moz-keyframes jump /* Firefox */
+{
+    0% {top: 82%;left: 100%;}
+    25%{top: 84%;left: 95%;}
+    50%{top: 82%;left: 90%;}
+    75%{top: 84%;left: 85%;}
+    100%{top: 82%;left: 80%;}
+}
+@-webkit-keyframes jump /* Safari 和 Chrome */
+{
+    0% {top: 82%;left: 100%;}
+    25%{top: 84%;left: 95%;}
+    50%{top: 82%;left: 90%;}
+    75%{top: 84%;left: 85%;}
+    100%{top: 82%;left: 80%;}
+}
+@-o-keyframes jump /* Opera */
+{
+    0% {top: 82%;left: 100%;}
+    25%{top: 84%;left: 95%;}
+    50%{top: 82%;left: 90%;}
+    75%{top: 84%;left: 85%;}
+    100%{top: 82%;left: 80%;}
+}
+@keyframes fallWidth
+{
+    0% {top: -100%;height: 100%;}
+    50%{top: -30%;height: 100%;}
+    100%{top: 3%;height: 35%;}
+}
+@-moz-keyframes fallWidth /* Firefox */
+{
+    0% {top: -100%;height: 100%;}
+    50%{top:-30%;height: 100%;}
+    100%{top: 3%;height: 35%;}
+}
+@-webkit-keyframes fallWidth /* Safari 和 Chrome */
+{
+    0% {top: -100%;height: 100%;}
+    50%{top: -30%;height: 100%;}
+    100%{top: 3%;height: 35%;}
+}
+@-o-keyframes fallWidth /* Opera */
+{
+    0% {top: -100%;height: 100%;}
+    50%{top: -30%;height: 100%;}
+    100%{top: 3%;height: 35%;}
+}
+@keyframes upWidth
+ {
+     0% {top: 100%;height: 100%;}
+     50%{top: 40%;height: 100%;}
+     100%{top: 40%;height: 35%;}
+ }
+@-moz-keyframes upWidth /* Firefox */
+{
+    0% {top: 100%;height: 100%;}
+    50%{top: 40%;height: 100%;}
+    100%{top: 40%;height: 35%;}
+}
+@-webkit-keyframes upWidth /* Safari 和 Chrome */
+{
+    0% {top: 100%;height: 100%;}
+    50%{top: 40%;height: 100%;}
+    100%{top: 40%;height: 35%;}
+}
+@-o-keyframes upWidth /* Opera */
+{
+    0% {top: 100%;height: 100%;}
+    50%{top: 40%;height: 100%;}
+    100%{top: 40%;height: 35%;}
+}
+@keyframes cloud
+{
+    0% {left: 5%}
+    50%{left: 19%}
+    100%{left: 5%;}
+}
+@-moz-keyframes cloud /* Firefox */
+{
+    0% {left: 5%}
+    50%{left: 19%}
+    100%{left: 5%;}
+}
+@-webkit-keyframes cloud /* Safari 和 Chrome */
+{
+    0% {left: 5%}
+    50%{left: 19%}
+    100%{left: 5%;}
+}
+@-o-keyframes cloud /* Opera */
+{
+    0% {left: 5%}
+    50%{left: 19%}
+    100%{left: 5%;}
+}
+@keyframes house
+{
+    0% {top: 100%}
+    100%{top: 83%}
+}
+@-moz-keyframes house /* Firefox */
+{
+    0% {top: 100%}
+    100%{top: 83%}
+}
+@-webkit-keyframes house /* Safari 和 Chrome */
+{
+    0% {top: 100%}
+    100%{top: 83%}
+}
+@-o-keyframes line /* Opera */
+{
+    0% {top: -100%}
+    100%{top: 0}
+}
+@keyframes lines
+{
+    0% {top: -100%}
+    100%{top: 0}
+}
+@-moz-keyframes lines/* Firefox */
+{
+    0% {top: -100%}
+    100%{top: 0}
+}
+@-webkit-keyframes lines/* Safari 和 Chrome */
+{
+    0% {top: -100%}
+    100%{top: 0}
+}
+@-o-keyframes lines /* Opera */
+{
+    0% {top: -100%}
+    100%{top: 0}
+}
+@keyframes word1
+{
+    0% {left: -100%}
+    100%{left: 8%}
+}
+@-moz-keyframes word1 /* Firefox */
+{
+    0% {left: -100%}
+    100%{left: 8%}
+}
+@-webkit-keyframes word1 /* Safari 和 Chrome */
+{
+    0% {left: -100%}
+    100%{left: 8%}
+}
+@-o-keyframes word1 /* Opera */
+{
+    0% {left: 100%}
+    100%{left: 8%}
+}
+@keyframes word2
+{
+    0% {left: 100%}
+    100%{left: 8%}
+}
+@-moz-keyframes word2 /* Firefox */
+{
+    0% {left: 100%}
+    100%{left: 8%}
+}
+@-webkit-keyframes word2 /* Safari 和 Chrome */
+{
+    0% {left: 100%}
+    100%{left: 8%}
+}
+@-o-keyframes word2 /* Opera */
+{
+    0% {left: 100%}
+    100%{left: 8%}
+}
+@keyframes comeIn
+{
+    0% {top:-30%;width:200%;height:114%;left: -50%}
+    100%{top:0%;width:100%;height:57%;left: 0%}
+}
+@-moz-keyframes comeIn /* Firefox */
+{
+    0% {top:-30%;width:200%;height:114%;left: -50%}
+    100%{top:0%;width:100%;height:57%;left: 0%}
+}
+@-webkit-keyframes comeIn /* Safari 和 Chrome */
+{
+    0% {top:-30%;width:200%;height:114%;left: -50%}
+    100%{top:0%;width:100%;height:57%;left: 0%}
+}
+@-o-keyframes comeIn /* Opera */
+{
+    0% {top:-30%;width:200%;height:114%;left: -50%}
+    100%{top:0%;width:100%;height:57%;left: 0%}
+}
