@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/game.css"/>
+    <meta http-equiv="page-enter" content="revealterans(duration=10,transition=21)"/>
+</head>
+<body>
+<script>
+    window.onload = function()
+    {
+        var canvas = document.getElementById("circle");
+        var content = canvas.getContext("2d");//取得图形上下文 graphics context
+
+        content.fillStyle = "rgba(240, 248, 255, 0)";//填充canvas的背景颜色
+        content.fillRect(0, 0, 400, 400);//参数分别表示 x轴,y轴,宽度,高度
+            content.beginPath();//创建路径
+            content.arc(40, 40, 40, 0, Math.PI * 2, true);//绘制图形
+            content.closePath();//关闭路径
+            content.fillStyle = "rgba(255, 0, 0, 0.25)";//设置样式
+            content.fill();//填充
+    }
+
+    var $ =
+    {
+        getId:function(_id)
+        {
+            return document.getElementById(_id);
+        }
+    }
+</script>
+    <div class="container">
+        <div class="block block1"></div>
+        <div class="block2 block"></div>
+        <div class="block3 block"></div>
+        <br/>
+        <div class="block4 block"></div>
+        <div class="block5 block"></div>
+        <div class="block6 block"></div>
+        <br/>
+        <div class="block7 block"></div>
+        <div class="block8 block"></div>
+        <div class="block9 block"></div>
+        <br/>
+        <div class="foot">
+            <canvas id="circle" class="center-block" onclick="doClick()"></canvas><div class="time" style="display: inline-block; position: absolute;
+                 bottom: 9%;right: 27%;font-size: 250%;">3:00</div>
+        </div>
+        <div class="background"></div>
+        <h1 class="grade">分数：</h1>
+        <div class="bt-block"><button class="btn btn-success btn-block" onclick="ref()">
+            再来一次
+        </button></div>
+    </div>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script>
+    var img=['person1.png','person2.png','person3.png','person4.png','person5.png','person6.png','person7.png','person8.png','person9.png'];
+    var img_num,num,sum=0;
+    for(var i=1;i<10;i++){
+        img_num=Math.floor(Math.random()*9);
+        var num=Math.ceil(Math.random()*3);
+        $('.block'+i).append('点餐'+num+'份'+' <br/><img src="image/'+img[img_num]+'" alt="人物"/>')
+        sum+=num;
+
+    }
+    console.log(sum);
+    var clickNum=0;
+    var time=99;
+    var second=3;
+    function timer(){
+        if(second>=0){
+            if(time>0){
+                $('.time').html(second+":"+time);
+                time--;
+            }
+            else{
+                second--;
+                time=99;
+                $('.time').html(second+":"+time);
+            }
+            setTimeout(timer,10);
+        }
+        else{
+            score();
+        }
+
+    }
+    setTimeout(timer,10);
+    function doClick(){
+        clickNum++;
+        console.log(clickNum);
+    }
+    var sc=100;
+    function score(){
+            $(".background").css('display','block');
+            $('.grade').css('display','block');
+            $(".bt-block").css('display','block');
+        switch(Math.abs(sum-clickNum)) {
+            case 0:
+                sc = 100;
+                break;
+            case 1:
+                sc = 90;
+                break;
+            case 2:
+                sc = 80;
+                break;
+            case 3:
+                sc = 70;
+                break;
+            default :
+                sc=60;
+                break;
+        }
+            $('.grade').html('分数：'+sc);
+
+    }
+    function ref(){
+        window.location.reload();
+    }
+</script>
+</body>
+</html>
