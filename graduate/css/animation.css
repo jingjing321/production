@@ -1,0 +1,187 @@
+@keyframes TopToBottom
+{
+    0% {top: -100%;}
+    80% {top:4%}
+    55% {top:1%}
+    75% {top:4%}
+    95% {top:1%}
+    100% {top:4%}
+}
+@-moz-keyframes TopToBottom /* Firefox */
+{
+    0% {top: -100%;}
+    80% {top:4%}
+    55% {top:1%}
+    75% {top:4%}
+    95% {top:1%}
+    100% {top:4%}
+}
+@-webkit-keyframes TopToBottom /* Safari 和 Chrome */
+{
+    0% {top: -100%;}
+    80% {top:4%}
+    55% {top:1%}
+    75% {top:4%}
+    95% {top:1%}
+    100% {top:4%}
+}
+@-o-keyframes TopToBottom /* Opera */
+{
+    0% {top: -100%;}
+    80% {top:4%}
+    55% {top:1%}
+    75% {top:4%}
+    95% {top:1%}
+    100% {top:4%}
+}
+@keyframes leftToRight1
+{
+    0% {left: -100%;}
+    100% {left:0%}
+}
+@-moz-keyframes leftToRight1 /* Firefox */
+{
+    0% {left: -100%;}
+    100% {left:0%}
+}
+@-webkit-keyframes leftToRight1 /* Safari 和 Chrome */
+{
+    0% {left: -100%;}
+    100% {left:0%}
+}
+@-o-keyframes leftToRight1 /* Opera */
+{
+    0% {left: -100%;}
+    100% {left:0%}
+}
+@keyframes rightToLeft1
+{
+    0% {left: 100%;}
+    100% {left: 50%;}
+}
+@-moz-keyframes rightToLeft1 /* Firefox */
+{
+    0% {left: 100%;}
+    100% {left: 50%;}
+}
+@-webkit-keyframes rightToLeft1 /* Safari 和 Chrome */
+{
+    0% {left: 100%;}
+    100% {left: 50%;}
+}
+@-o-keyframes rightToLeft1 /* Opera */
+{
+    0% {left: 100%;}
+    100% {left: 50%;}
+}
+@keyframes TopToBottom2
+ {
+     0% {top:-100%;}
+     80% {top:1%}
+     55% {top:0%}
+     75% {top:1%}
+     95% {top:0%}
+     100% {top:1%}
+ }
+@-moz-keyframes TopToBottom2 /* Firefox */
+{
+    0% {top:-100%;}
+    80% {top:1%}
+    55% {top:0%}
+    75% {top:1%}
+    95% {top:0%}
+    100% {top:1%}
+}
+@-webkit-keyframes TopToBottom2 /* Safari 和 Chrome */
+{
+    0% {top:-100%;}
+    80% {top:1%}
+    55% {top:0%}
+    75% {top:1%}
+    95% {top:0%}
+    100% {top:1%}
+}
+@-o-keyframes TopToBottom2 /* Opera */
+{
+    0% {top:-100%;}
+    80% {top:1%}
+    55% {top:0%}
+    75% {top:1%}
+    95% {top:0%}
+    100% {top:1%}
+}
+@keyframes leftToRight2
+{
+    0% {left:-100%;}
+    100% {left: 0%}
+}
+@-moz-keyframes leftToRight2 /* Firefox */
+{
+    0% {left:-100%;}
+    100% {left: 0%}
+}
+@-webkit-keyframes leftToRight2 /* Safari 和 Chrome */
+{
+    0% {left:-100%;}
+    100% {left: 0%}
+}
+@-o-keyframes leftToRight2 /* Opera */
+{
+    0% {left:-100%;}
+    100% {left: 0%}
+}
+@keyframes leftToRight3
+{
+    0% {left:100%;}
+    100% {left: 11%}
+}
+@-moz-keyframes leftToRight3 /* Firefox */
+{
+    0% {left:100%;}
+    100% {left: 11%}
+}
+@-webkit-keyframes leftToRight3 /* Safari 和 Chrome */
+{
+    0% {left:100%;}
+    100% {left: 11%}
+}
+@-o-keyframes leftToRight3 /* Opera */
+{
+    0% {left:100%;}
+    100% {left: 11%}
+}
+@keyframes leftToRight4
+{
+    0% {left: -100%;}
+    100% {left: 0px}
+}
+@-moz-keyframes leftToRight4 /* Firefox */
+{
+    0% {left: -100%;}
+    100% {left: 0px}
+}
+@-webkit-keyframes leftToRight4 /* Safari 和 Chrome */
+{
+    0% {left: -100%;}
+    100% {left: 0px}
+}
+@-o-keyframes leftToRight4 /* Opera */
+{
+    0% {left: -100%;}
+    100% {left: 0px}
+}
+@keyframes turn
+{
+    0% { transform: rotateZ(0deg);}
+    100% {transform: rotateZ(360deg);}
+}
+@-moz-keyframes turn /* Firefox */
+{
+    0% {-moz-transform: rotateZ(0deg);}
+    100% {-moz-transform: rotateZ(360deg);}
+}
+@-webkit-keyframes turn /* Safari 和 Chrome */
+{
+    0% { -webkit-transform: rotateZ(0deg);}
+    100% { -webkit-transform: rotateZ(360deg);}
+}

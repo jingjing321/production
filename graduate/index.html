@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection"content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>我们毕业啦</title>
+    <!--<link rel="stylesheet" href="http://files.cnblogs.com/files/eyeear/slidePage-demo.css" />-->
+    <link rel="stylesheet" href="css/animation.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/animate.netwoek.css"/>
+</head>
+<body>
+
+<div id="slidePageBox" class="slide-box">
+    <section class="slide-page page1">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+    </section>
+    <section class="slide-page page2">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+    </section>
+    <section class="slide-page page3">
+        <div class="div1"></div>
+        <div class="div2"></div>
+    </section>
+    <section class="slide-page page4">
+        <div class="div1"></div>
+        <div class="div2"></div>
+    </section>
+    <section class="slide-page page5">
+        <div class="div1"></div>
+        <div class="div2"></div>
+    </section>
+</div>
+<section id="arrow"></section>
+<audio autoplay="autoplay" id="music">
+    <source src="music.mp3" type="audio/mpeg" />
+</audio>
+<script src="js/jquery-2.1.4.min.js"></script>
+<svg><polyline points="0,20 20,0 40,20"style="fill:white;stroke:white;stroke-width:2"><animate attributeName="opacity" from="1" to="0" begin="0.8s" dur="1s" repeatCount="indefinite" /></polyline>
+    <polyline points="0,25 20,5 40,25"style="fill:white;stroke:white;stroke-width:2"><animate attributeName="opacity" from="1" to="0" begin="0.6s" dur="1s" repeatCount="indefinite" /></polyline>
+    <polyline points="0,30 20,10 40,30"style="fill:white;stroke:white;stroke-width:2"><animate attributeName="opacity" from="1" to="0" begin="0.4s" dur="1s" repeatCount="indefinite" /></polyline>
+    <polyline points="0,35 20,15 40,35"style="fill:white;stroke:white;stroke-width:2"><animate attributeName="opacity" from="1" to="0" begin="0.2s" dur="1s" repeatCount="indefinite" /></polyline>
+    <polyline points="0,40 20,20 40,40"style="fill:white;stroke:white;stroke-width:2"><animate attributeName="opacity" from="1" to="0" begin="0s" dur="1s" repeatCount="indefinite" /></polyline>
+</svg>
+<div class="music music_animation" onclick="music_animation()"><img src="image/page-one/music.png" alt="音乐"/></div>
+<!--<script type="text/javascript" src="http://files.cnblogs.com/files/eyeear/slidePage.min.js" ></script>-->
+<script src="js/index.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+    //use slidePage
+    var arrow = document.getElementById('arrow'),
+            slide = new slidePage({
+                el: '#slidePageBox',
+                // locked: true,
+                // index: 2,
+                navShow: true,
+                // auto: true,
+                // delay: 8000,
+                effect: 'scale',
+                duration: 400,
+                // minScale: 0.8,
+                end: function() {
+                    if(slide.index == slide.length - 1){
+                        arrow.style.display = 'none';
+                    }else{
+                        arrow.style.display = 'block';
+                    }
+                }
+            });
+    (function(doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function() {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    clientWidth > 640 && (clientWidth = 640);
+                    docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+                };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+
+</body>
+</html>

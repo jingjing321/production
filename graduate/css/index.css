@@ -1,0 +1,219 @@
+svg{
+    position: absolute;
+    top: 93%;
+    left: 41%;
+}
+.music{
+    display: inline-block;
+    position: absolute;
+    top: 2%;
+    left: 81%;
+    width: 15%;
+}
+.music_animation{
+    animation: turn 2s infinite;
+    -moz-animation: turn 2s infinite;
+    -webkit-animation: turn 2s infinite;
+}
+.music img{
+    width: 100%;
+}
+.page1{
+    width:100%;
+    height:100%;
+    background-image: url("../image/page-one/background.png");
+    background-size: 100% 100%;
+}
+.page1 .div1
+{
+    position: absolute;
+    width:84%;
+    background-image: url("../image/page-one/biyeji.png");
+    height: 120px;
+    animation: TopToBottom 2s;
+    -moz-animation: TopToBottom 2s;	 /*Firefox*/
+    -webkit-animation: TopToBottom 2s;	/* Safari 和 Chrome*/
+    -o-animation: TopToBottom 2s;	/* Opera*/
+    animation-delay:2s;
+    background-size: 100% 100%;
+    left: 5%;
+    top: 35px;
+}
+.page1 .div2{
+    background-image: url("../image/page-one/tree.png");
+    width: 83%;
+    height: 75%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 24%;
+    left: -353px;
+    animation: leftToRight1 2s forwards;
+    -moz-animation:leftToRight1 2s forwards;	 /*Firefox*/
+    -webkit-animation: leftToRight1 2s forwards;	/* Safari 和 Chrome */
+    -o-animation: leftToRight1 2s forwards;	 /*Opera*/
+    animation-delay:2s;
+}
+.page1 .div3{
+    background-image: url("../image/page-one/people.png");
+    width: 30%;
+    height: 25%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 75%;
+    left: 388px;
+    animation: rightToLeft1 1s forwards;
+    -moz-animation:rightToLeft1 1s forwards;	 /*Firefox*/
+    -webkit-animation: rightToLeft1 1s forwards;	 /*Safari 和 Chrome */
+    -o-animation: rightToLeft1 1s forwards;	 /*Opera*/
+    animation-delay:2s;
+}
+.page2{
+    width:100%;
+    height:100%;
+    background-image: url("../image/page-two/two.jpg");
+    background-size: 100% 100%;
+}
+.page2 .div1{
+     background-image: url("../image/page-two/images/2_02.png");
+    width: 100%;
+    height: 66%;
+     background-size: 100% 100%;
+     position: absolute;
+     animation:  TopToBottom2 2s forwards;
+     -moz-animation:  TopToBottom2 2s forwards;
+     -webkit-animation:  TopToBottom2 2s forwards;
+     -o-animation:  TopToBottom2 2s forwards;
+     animation-delay:2s;
+     left: 0px;
+     top: -477px;
+ }
+.page2 .div2{
+    background-image: url("../image/page-two/images/2_04.png");
+    width: 100%;
+    height: 23%;
+    background-size: 100% 100%;
+    position: absolute;
+    animation: leftToRight2 2s forwards;
+    -moz-animation: leftToRight2 2s forwards;
+    -webkit-animation: leftToRight2 2s forwards;
+    -o-animation: leftToRight2 2s forwards;
+     animation-delay: 2s;
+    left: -100%;
+    top: 71%;
+}
+.page2 .div3{
+    background-image: url("../image/page-two/images/2_06.png");
+    width: 100%;
+    height: 1%;
+    background-size: 100% 100%;
+    position: absolute;
+    animation: leftToRight3 2s forwards;
+    -moz-animation: leftToRight3 2s forwards;
+    -webkit-animation: leftToRight3 2s forwards;
+    -o-animation: leftToRight3 2s forwards;
+     animation-delay: 2.5s;
+    left:-100%;
+    top: 94%;
+}
+.page3{
+     width:100%;
+     height:100%;
+     background-image: url("../image/page-three/3.jpg");
+     background-size: 100% 100%;
+ }
+.page3 .div1 {
+    background-image: url("../image/page-three/images/3_02.png");
+    width: 100%;
+    height: 66%;
+    background-size: 100% 100%;
+    position: absolute;
+    animation:  TopToBottom2 2s forwards;
+    -moz-animation:  TopToBottom2 2s forwards;
+    -webkit-animation:  TopToBottom2 2s forwards;
+    -o-animation:  TopToBottom2 2s forwards;
+    animation-delay:2s;
+    left: 0px;
+    top: -477px;
+}
+.page3 .div2{
+    background-image: url("../image/page-three/images/3_04.png");
+    width: 100%;
+    height: 23%;
+    background-size: 100% 100%;
+    position: absolute;
+    animation: leftToRight2 2s forwards;
+    -moz-animation: leftToRight2 2s forwards;
+    -webkit-animation: leftToRight2 2s forwards;
+    -o-animation: leftToRight2 2s forwards;
+    animation-delay: 2s;
+    left:-100%;
+    top: 71%;
+}
+.page4{
+    width:100%;
+    height:100%;
+    background-image: url("../image/page-four/4.jpg");
+    background-size: 100% 100%;
+}
+.page4 .div1 {
+    background-image: url("../image/page-four/images/4_02.png");
+    width: 100%;
+    height: 66%;
+    background-size: 100% 100%;
+    position: absolute;
+    animation:  TopToBottom2 2s forwards;
+    -moz-animation:  TopToBottom2 2s forwards;
+    -webkit-animation:  TopToBottom2 2s forwards;
+    -o-animation:  TopToBottom2 2s forwards;
+    animation-delay:2s;
+    left: 0px;
+    top: -477px;
+}
+.page4 .div2{
+    background-image: url("../image/page-four/images/4_04.png");
+    width: 100%;
+    height: 23%;
+    background-size: 100% 100%;
+    position: absolute;
+    animation: leftToRight2 2s forwards;
+    -moz-animation: leftToRight2 2s forwards;
+    -webkit-animation: leftToRight2 2s forwards;
+    -o-animation: leftToRight2 2s forwards;
+    animation-delay: 2s;
+    left:-100%;
+    top: 71%;
+}
+.page5{
+    width:100%;
+    height:100%;
+    background-image: url("../image/page-five/five.jpg");
+    background-size: 100% 100%;
+}
+.page5 .div1 {
+    background-image: url("../image/page-five/images/5_02.png");
+    width: 83%;
+    height: 34%;
+    background-size: 100% 100%;
+    position: absolute;
+     animation: leftToRight4 2s forwards;
+     -moz-animation: leftToRight4 2s forwards;
+     -webkit-animation: leftToRight4 2s forwards;
+     -o-animation: leftToRight4 2s forwards;
+     animation-delay: 2s;
+    left: 100%;
+    top: 15%;
+}
+.page5 .div2{
+    background-image: url("../image/page-five/images/five_02.png");
+    width: 100%;
+    height: 25%;
+    background-size: 100% 100%;
+    position: absolute;
+    animation: fadeInDownBig 2s forwards;
+    -moz-animation: fadeInDownBig 2s forwards;
+    -webkit-animation: fadeInDownBig 2s forwards;
+    -o-animation: fadeInDownBig 2s forwards;
+    animation-delay: 2s;
+    left: 0px;
+    top: 56%;
+}
